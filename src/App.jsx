@@ -3,16 +3,19 @@ import Seat from "./pages/Seat";
 import Landing from "./pages/Landing";
 import Main from "./pages/Main";
 import Cafe from "./pages/Cafe";
+import Layout from "./components/layout/Layout";
 
 const App = () => {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Landing />} />
-        <Route path="/main" element={<Main />} />
-        <Route path="/cafe/:id" element={<Cafe />} />
-        <Route path="/seat/:id" element={<Seat />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/main" element={<Main />} />
+          <Route path="/cafe/:id" element={<Cafe />} />
+          <Route path="/seat/:id" element={<Seat />} />
+        </Routes>
+      </Layout>
     </Router>
   );
 };
