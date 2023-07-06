@@ -1,12 +1,13 @@
-const HeartIcon = () => {
+const HeartIcon = ({ isLiked, onClick }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill={"#ff0000"}
+      fill={isLiked ? "#ff0000" : "none"}
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
       style={{ height: "100%", display: "block" }}
+      onClick={onClick}
     >
       <path
         strokeLinecap="round"
