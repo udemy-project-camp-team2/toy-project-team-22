@@ -1,0 +1,102 @@
+.login {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.logo {
+    display: inline-block;
+    width: 100px;
+    padding: 0 20px;
+}
+.logo p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: #30A2FF;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.form {
+    margin-top: 70px;
+}
+
+.form input {
+    width: 280px;
+    height: 52px;
+    line-height: 52px;
+    border: none;
+    font-size: 20px;
+    border-radius: 100px;
+    text-align: left;
+    padding: 0 40px;
+}
+
+.form input::placeholder {
+    color: #000;
+    opacity: .34;
+    
+}
+
+.form input[type=text] {
+    background-color: rgb(214,235,254);
+    color: #000;
+}
+
+.form input[type=password] {
+    background-color: rgb(214,235,254);
+    color: #000;
+}
+
+.form input[type=button] {
+    background-color: #30A2FF;
+    opacity: 1;
+    color: #fff;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form button {
+    width: 280px;
+    height: 52px;
+    line-height: 52px;
+    border: 1px solid #000;
+    font-size: 20px;
+    background: #fff;
+    border-radius: 100px;
+    text-align: center;
+    color: rgb(103, 103, 103);  
+    overflow: hidden;
+    padding: 0 30px;
+}
+
+.form button * {
+    float: left;
+}
+
+.form button img {
+   margin : 7px 10px 0 0;
+}
+
+.form p {
+    width: 280px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.errorMessge {
+    display: block;
+    font-size: .75em;
+    color: red;
+    margin: 5px 0 5px 5px;
+    text-align: left;
+}
+
+
+

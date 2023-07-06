@@ -1,0 +1,35 @@
+.logo {
+    position: absolute;
+    top : 65px;
+    left: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #30A2FF;
+    line-height: 30px;
+}
+
+.logo img {
+    margin: 0 0 -4px 14px;
+}
+
+.landing {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.btnLogin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 14px;
+    color: #30A2FF;
+    cursor: pointer;
+}
+
+.barista {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
