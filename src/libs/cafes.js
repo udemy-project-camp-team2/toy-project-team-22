@@ -12,6 +12,7 @@ export const cafes = [
     id: 2,
     name: "카페 저기",
     src: "/images/cafe2.jpg",
+    name: "카페 저기",
     location: "서울시 마포구 와우산로 ..",
     keywords: ["조용한", "힙한"],
     business: "평일, 주말 09:00 ~ 23:00",
